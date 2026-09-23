@@ -438,6 +438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Molino (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3642152409545135356, guid: bdbcb561929dcbb4ba57c5a59b5dd109, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 32db39bfc38054f47a8710c65f5c474f, type: 2}
     - target: {fileID: 6130783171372112393, guid: bdbcb561929dcbb4ba57c5a59b5dd109, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.36
