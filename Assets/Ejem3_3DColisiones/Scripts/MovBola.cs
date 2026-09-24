@@ -16,4 +16,13 @@ public class MocBola : MonoBehaviour
        float movimientoVertical = Input.GetAxis("Vertical");
         this.transform.Translate(new Vector3(movimientoHorizontal, 0, movimientoVertical) * Time.deltaTime * velocidad,Space.World);
     }
+
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Player"))
+    //    {
+    //        Destroy(collision.gameObject);
+    //    }
+    //}
 }
