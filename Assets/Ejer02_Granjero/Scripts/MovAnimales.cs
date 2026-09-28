@@ -32,6 +32,7 @@ public class MovAnimales : MonoBehaviour
         if (collision.gameObject.CompareTag("Pizza"))
         {
             Destroy(this.gameObject);
+            Destroy(collision.gameObject);
         }
     }
     

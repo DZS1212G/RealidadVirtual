@@ -19,7 +19,7 @@ public class MovNiño : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Vector3 posicion = this.transform.position;
-            posicion += (new Vector3(0, 2, 2));
+            posicion += new Vector3(0, 2, 2);
             Instantiate(prefabComida,posicion,prefabComida.transform.rotation);
             
         }

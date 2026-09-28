@@ -14,9 +14,9 @@ public class Pizza : MonoBehaviour
     void Update()
     {
         this.transform.position += new Vector3(0, 0, speed);
-        if (this.gameObject.transform.position.z > 38)
+        if (this.gameObject.transform.position.z > 5.5)
         {
-
+            Destroy(this.gameObject);
         }
     }
 }
