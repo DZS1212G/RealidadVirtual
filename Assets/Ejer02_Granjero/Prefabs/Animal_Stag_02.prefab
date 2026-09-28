@@ -630,7 +630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b744ae5e512ee974697b62c2bd277920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovAnimales
-  speed: -0.1
+  speed: 0.1
 --- !u!136 &9051110041850685256
 CapsuleCollider:
   m_ObjectHideFlags: 0

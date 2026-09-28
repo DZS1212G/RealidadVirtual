@@ -15,7 +15,7 @@ public class MovAnimales : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.position += new Vector3(0, 0, (float)speed);
+        this.transform.position -= new Vector3(0, 0, (float)speed);
         if (this.transform.position.z < -50)
         {
             Destroy(this.gameObject);
@@ -29,5 +29,10 @@ public class MovAnimales : MonoBehaviour
             Destroy(collision.gameObject);
             UnityEditor.EditorApplication.isPlaying = false;
         }
+        if (collision.gameObject.CompareTag("Pizza"))
+        {
+            Destroy(this.gameObject);
+        }
     }
+    
 }
