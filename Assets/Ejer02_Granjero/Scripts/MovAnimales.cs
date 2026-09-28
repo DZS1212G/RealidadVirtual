@@ -28,6 +28,7 @@ public class MovAnimales : MonoBehaviour
         {
             Destroy(collision.gameObject);
             UnityEditor.EditorApplication.isPlaying = false;
+            Debug.Log("Game Over");
         }
         if (collision.gameObject.CompareTag("Pizza"))
         {
