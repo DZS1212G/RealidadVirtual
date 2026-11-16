@@ -5,8 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Ejer06_LanzamientoBolas/Scenes/Ejer06.unity
+    guid: 610c562fc0469664d9ad7e8be47b6220
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6a77637ea3b7fa44781b5d7be4df645e, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8947ca4ed191db4438d52cd04cb3c54c, type: 2}
